@@ -1,7 +1,5 @@
 #include <stdio.h>
-/*
- * main - Prints the numbe 
-**/
+
 int main(void)
 {
 int n;
