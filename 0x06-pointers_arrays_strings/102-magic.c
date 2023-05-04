@@ -1,5 +1,11 @@
 #include <stdio.h>
-
+/**
+ * main - entry point for the program
+ *
+ * Description: This program demonstrates  with pointers and arrays.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
@@ -14,7 +20,8 @@ p = &n;
  * - you are not allowed to use a
  * - you are not allowed to modify p
  * - only one statement
- * - you are not allowed to code anything else than this line of cod**/
+ * - you are not allowed to code anything else than this lineod
+*/
 *(p + 5) = 98;
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
